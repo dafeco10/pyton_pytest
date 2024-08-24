@@ -88,3 +88,6 @@ tareas_pendientes()
 
 
 print(tareas)
+
+def suma(a,b):
+    print(a+b)
