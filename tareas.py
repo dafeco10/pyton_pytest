@@ -1,3 +1,6 @@
+def suma(a,b):
+    print(a+b)
+
 def agregar_tarea(id_tarea,descripcion,prioridad):
     for x in tareas:
         if id_tarea == x["id_tarea"]:
@@ -8,15 +11,6 @@ def agregar_tarea(id_tarea,descripcion,prioridad):
                 "prioridad":prioridad
                 }
     tareas.append(tarea)
-
-
-
-
-
-
-
-
-
 
 
 def actualizar_tarea(id_tarea,nueva_descripcion,nueva_tarea):
@@ -88,6 +82,3 @@ tareas_pendientes()
 
 
 print(tareas)
-
-def suma(a,b):
-    print(a+b)
